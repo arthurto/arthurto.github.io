@@ -7,7 +7,7 @@ function setup() {
 function draw() {
   background(220);
   
-  circle(200,200,t,t)
+  circle(200,200,t)
   
   t = t + m*5
   
