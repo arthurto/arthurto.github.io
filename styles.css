@@ -39,8 +39,6 @@ div.content {
     height: 1000px;
 }
 
-script.display {
-    margin-left: 200px;
-    height: 400px;
-    width: 400px;
-}
+canvas {
+    display: block;
+  }
