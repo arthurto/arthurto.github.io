@@ -46,3 +46,46 @@ a:hover {
 
 /* Custom Styles for Mathematics Theme */
 /* Add any specific styles that relate to the mathematics theme here */
+
+/* styles.css */
+
+/* Style for the sidebar container */
+.sidebar {
+  width: 200px;  /* Set the width of the sidebar */
+  background-color: #333; /* Background color of the sidebar */
+  padding: 10px; /* Padding inside the sidebar */
+  border-right: 1px solid #333; /* Right border for the sidebar */
+}
+
+/* Style for the list inside the sidebar */
+.sidebar ul {
+  list-style-type: none; /* Removes default list style */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+}
+
+/* Style for the list items inside the sidebar */
+.sidebar ul li {
+  padding: 8px; /* Padding for each list item */
+  margin-bottom: 5px; /* Space between list items */
+  background-color: #e8e8e8; /* Background color for list items */
+  border-radius: 4px; /* Rounded corners for list items */
+}
+
+/* Style for the links inside the list items */
+.sidebar ul li a {
+  text-decoration: none; /* Removes underline from links */
+  color: black; /* Color of the text in links */
+  display: block; /* Makes the entire list item clickable */
+}
+
+/* Additional style for hovering over the list items */
+.sidebar ul li:hover {
+  background-color: #444; /* Background color on hover */
+}
+
+/* Additional style for the active page link */
+.sidebar ul li a.active {
+  color: #444; /* Color of the active link text */
+  background-color: #4CAF50; /* Background color of the active link */
+}
