@@ -50,12 +50,18 @@ a:hover {
 /* styles.css */
 
 /* Style for the sidebar container */
+/* Style for the sidebar container */
 .sidebar {
   width: 200px;  /* Set the width of the sidebar */
+  display: flex; /* Establishes a flex container */
+  flex-direction: column; /* Aligns children vertically */
+  align-items: center; /* Centers flex items on the cross axis (horizontally) */
+  justify-content: center; /* Centers flex items on the main axis (vertically) */
   background-color: #333; /* Background color of the sidebar */
   padding: 10px; /* Padding inside the sidebar */
   border-right: 1px solid #333; /* Right border for the sidebar */
 }
+
 
 /* Style for the list inside the sidebar */
 .sidebar ul {
