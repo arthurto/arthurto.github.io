@@ -1,75 +1,48 @@
+/* General Body Styles */
 body {
-    background-color: rgb(222, 235, 224);
-    font-family: Courier
-  }
-a:link { 
-    text-decoration: none; 
-    color: black;
-}
-a:visited { 
-    text-decoration: none; 
-    color: black;
-}
-a:hover { 
-    text-decoration: none; 
-    color: black;
-}
-a:active { 
-    text-decoration: none; 
-    color: black;
+  background-color: #333; /* Dark grey background */
+  color: white; /* White text for contrast */
+  font-family: Arial, sans-serif; /* Simple, clean font */
 }
 
-p {
-    background-color: rgb(252, 247, 222);
+/* Container */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #444; /* Slightly lighter grey for containers */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
 }
 
-.sidebar {
-    width: 200px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    background-color: #f8f8f8;
-    padding: 20px;
-  }
-  
-  .sidebar ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .sidebar li {
-    margin-bottom: 10px;
-  }
-  
-  .sidebar a {
-    display: block;
-    text-decoration: none;
-    color: #333;
-  }
-  
-  .sidebar a:hover {
-    color: #007bff;
-  }
-  
-  iframe {
-    width: 200px; /* Change this to the desired width */
-    height: 100%; /* Make the iframe fill the entire height of the viewport */
-    position: fixed;
-    top: 0;
-    left: 0;
-    border: none;
-  }
-  
-  .content {
-    margin-left: 200px; /* Make room for the sidebar */
-    padding: 20px;
-  }
-  
-  .content img {
-    display: block;
-    margin: 0 auto;
-    padding: 20px 0;
-  }
-  
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Sections */
+section {
+  margin-bottom: 20px;
+}
+
+/* Links */
+a {
+  color: #4CAF50; /* Bright color for links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Profile Picture */
+.profile-pic {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  border: 3px solid #4CAF50;
+}
+
+/* Custom Styles for Mathematics Theme */
+/* Add any specific styles that relate to the mathematics theme here */
