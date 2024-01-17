@@ -1,18 +1,18 @@
 /* General Body Styles */
 body {
-  background-color: #333; /* Dark grey background */
-  color: white; /* White text for contrast */
-  font-family: Arial, sans-serif; /* Simple, clean font */
+  background-color: #333;
+  color: white; 
+  font-family: Arial, sans-serif; 
 }
 
 /* Container */
 .container {
   width: 80%;
   margin: 0 auto;
-  background-color: #444; /* Slightly lighter grey for containers */
+  background-color: #444; 
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
 }
 
 .centered-content {
@@ -22,27 +22,32 @@ body {
   align-items: center; /* Center horizontally */
   height: 30vh; /* Optional: You can set a height */
   text-align: center; /* Center text for inline or inline-block elements */
+  z-index: 0;
 }
 
 /* Header */
 header {
   text-align: center;
   margin-bottom: 20px;
+  z-index: 0;
 }
 
 /* Sections */
 section {
   margin-bottom: 20px;
+  z-index: 0;
 }
 
 /* Links */
 a {
   color: #4CAF50; /* Bright color for links */
   text-decoration: none;
+  z-index: 0;
 }
 
 a:hover {
   text-decoration: underline;
+  z-index: 0;
 }
 
 /* Profile Picture */
