@@ -15,6 +15,15 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
 }
 
+.centered-content {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 30vh; /* Optional: You can set a height */
+  text-align: center; /* Center text for inline or inline-block elements */
+}
+
 /* Header */
 header {
   text-align: center;
@@ -38,10 +47,10 @@ a:hover {
 
 /* Profile Picture */
 .profile-pic {
-  width: 150px;
-  height: auto;
-  border-radius: 50%;
-  border: 3px solid #4CAF50;
+  border-radius: 50%; /* Circular image */
+  width: 150px; /* Adjust width as needed */
+  margin-top: 20px; /* Space above the image */
+  border: 3px solid #16c049; /* Solid white border, 3px thick */
 }
 
 /* Custom Styles for Mathematics Theme */
